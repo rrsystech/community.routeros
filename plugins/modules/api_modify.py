@@ -86,6 +86,8 @@ options:
       - interface l2tp-server server
       - interface list
       - interface list member
+      - interface lte
+      - interface lte apn
       - interface ovpn-client
       - interface ovpn-server server
       - interface ppp-client
@@ -95,6 +97,9 @@ options:
       - interface sstp-server server
       - interface vlan
       - interface vrrp
+      - interface vxlan
+      - interface vxlan fdb
+      - interface vxlan vteps
       - interface wifi
       - interface wifi aaa
       - interface wifi access-list
