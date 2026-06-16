@@ -3768,10 +3768,9 @@ PATHS = {
     ('interface', 'lte'): APIData(
         versioned=[
             ('7.15', '>=', VersionedAPIData(
-                # fixed_entries=True,
+                fixed_entries=True,
                 fully_understood=True,
-                has_identifier=True,
-                # primary_keys=('numbers',),
+                primary_keys=('default-name',),
                 versioned_fields=[
                     ([('7.16', '>=')], 'sms-protocol', KeyInfo()),
                 ],
@@ -3780,6 +3779,7 @@ PATHS = {
                     'apn-profiles': KeyInfo(),
                     'band': KeyInfo(),
                     'comment': KeyInfo(),
+                    'default-name': KeyInfo(),
                     'disabled': KeyInfo(),
                     'modem-init': KeyInfo(can_disable=True),
                     'mtu': KeyInfo(),

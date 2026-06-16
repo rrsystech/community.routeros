@@ -167,6 +167,7 @@ options:
       - interface l2tp-server server
       - interface list
       - interface list member
+      - interface lte
       - interface lte apn
       - interface lte settings
       - interface macsec
